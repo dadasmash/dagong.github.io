@@ -16,6 +16,13 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
+# here's a useful link: https://www.youtube.com/watch?v=jplSmg2Z-Tw
+
+# some hint, for menu at the top bar, for example: Research and Datasets. <br>
+# their menu option is stored at _data/navigation.yml  <br>
+# the link and corresponding markdown is stored at /pages and corresponding files  <br>
+# the items or contents  (e.g. 1st paper, 2nd paper in research...) are stored in corresponding folder under master directory (e.g. _research)  <br>
+
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
 1. Clone the repository and made updates as detailed above
