@@ -6,16 +6,11 @@ author_profile: true
 ---
 
 ## Publications
-<!-- <details open>
-<summary>Abstract</summary>
-<br>
-Well, you asked for it!
-</details> -->
 
 
 ## Working Papers
 **Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors** (joint with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
-<details open>
+<details>
 <summary>Abstract</summary>
 <br>
 This paper examines how a traumatic experience across differential cultural configurations,
@@ -34,7 +29,7 @@ aspect, i.e., the formation and evolution of personal belief.
 
 **[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**  
 (joint with Andong Yan and Jialin Yu) 
-<details open>
+<details>
 <summary>Abstract</summary>
 <br>
 We study the effect of China’s anti-contagious policy on labor market outcomes in 2020.
@@ -59,6 +54,13 @@ the labor market outcomes in 2020.
 
 <!-- how to add drowdown menu
 https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61 -->
+<!-- <details open>
+<summary>Abstract</summary>
+<br>
+Well, you asked for it!
+</details> -->
+
+
 
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
