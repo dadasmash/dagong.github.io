@@ -31,7 +31,7 @@ aspect, i.e., the formation and evolution of personal belief.
 </details>
 
 <br>
-<br>
+
 **[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**  
 (joint with Andong Yan and Jialin Yu) 
 <details open>
