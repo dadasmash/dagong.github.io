@@ -5,15 +5,15 @@ permalink: /research/
 author_profile: true
 ---
 
-<font size="8">**Publications**</font> 
+<font size="6">##Publications</font> 
 
-Working Papers
+<font size="6">##Working Papers</font> 
 
-Work in Progress
+<font size="6">##Work in Progress</font> 
 
 
 
-{% if author.googlescholar %}
+<!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
@@ -22,3 +22,4 @@ Work in Progress
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+ -->
