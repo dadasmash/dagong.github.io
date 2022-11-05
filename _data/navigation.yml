@@ -16,9 +16,9 @@ main:
   - title: "Datasets"
     url: /datasets/
         
-  - title: "Blog Posts"
+  - title: "Contact"
     url: /year-archive/
   
     
-  - title: "Guide"
-    url: /markdown/
+#   - title: "Guide"
+#     url: /markdown/
