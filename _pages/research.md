@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-<font size="4">**Publications**</font> 
+<font size="8">**Publications**</font> 
 
 Working Papers
 
