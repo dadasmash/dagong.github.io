@@ -87,7 +87,7 @@ author:
   location         : "Riverside, CA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=0KDfP1oAAAAJ&hl=en"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Da-Gong-3"
   uri              :
