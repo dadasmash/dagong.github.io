@@ -5,11 +5,11 @@ permalink: /research/
 author_profile: true
 ---
 
-<font size="6">##Publications</font> 
+<font size="6">## Publications</font> 
 
-<font size="6">##Working Papers</font> 
+<font size="6">## Working Papers</font> 
 
-<font size="6">##Work in Progress</font> 
+<font size="6">## Work in Progress</font> 
 
 
 
