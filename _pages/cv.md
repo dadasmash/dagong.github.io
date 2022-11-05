@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-[Download CV Here] (http://https://dadasmash.github.io/dagong.github.io/files/DaGong_Academic_CV.pdf)
-
+[Download CV Here](http://https://dadasmash.github.io/dagong.github.io/files/DaGong_Academic_CV.pdf)
+<!-- [Download paper here](http://academicpages.github.io/files/paper2.pdf) -->
 
 <!-- Education
 ======
