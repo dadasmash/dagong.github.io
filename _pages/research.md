@@ -30,6 +30,29 @@ contributes to literature on the effects on traumatic experience by focusing on 
 aspect, i.e., the formation and evolution of personal belief.
 </details>
 
+**[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**  
+(joint with Andong Yan and Jialin Yu) 
+<details open>
+<summary>Abstract</summary>
+<br>
+We study the effect of China’s anti-contagious policy on labor market outcomes in 2020.
+By exploiting variation in the duration of the zero-Covid policy in China, which is triggered by
+the outbreak of new cases of COVID-19 in a 14-day observation window, we find that a 10%
+increase (3.7 days in average) in the duration of the zero-Covid policy caused the probability of
+unemployment to increase by around 0.1. Unlike most large economies that suffered a serious
+health shock from the COVID-19 pandemic, China effectively contained the scale and the
+spread of the initial outbreak in 2020. This provides a special empirical setting to examine
+the policy effect of anti-contagious policies, and we show that the disruption on the labor
+market majorly comes from the zero-Covid containment measures, while health shocks are
+trivial on the labor market outcomes. Moreover, the zero-Covid policy decreases the labor
+income and hours worked for employed individuals, and the policy effect is heterogeneous
+across demographic groups. We also examined the policy effect during different phases of
+the pandemic, and the results imply that the stringent clearance during the first stage of
+the pandemic (ended by Feb 17, 2020) caused the negative impacts on the labor outcomes,
+while the subsequent dynamic clearance strategy did not generate significant disruption on
+the labor market outcomes in 2020.
+</details>
+
 ## Work in Progress
 
 <!-- how to add drowdown menu
