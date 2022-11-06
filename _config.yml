@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Da Gong | Economics"
+title                    : "Da Gong / Economics"
 title_separator          : "-"
 name                     : &name "Da Gong"
 description              : &description "Ph.D. Candidate in Economics at UC Riverside"
@@ -83,8 +83,8 @@ author:
   name             : "Da Gong"
   avatar           : "profile.png"
   bio              : |
-                      Ph.D. Candidate, Economics,
-                      UC Riverside
+                     "Ph.D. Candidate, Economics,
+                      UC Riverside"
   location         : "Riverside, California"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
