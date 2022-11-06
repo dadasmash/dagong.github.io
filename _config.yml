@@ -85,6 +85,7 @@ author:
   bio              :  >
                        Ph.D. Candidate, Economics,
                        UC Riverside
+ # linebreaker in yml, ref: https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines
   location         : "Riverside, California"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
