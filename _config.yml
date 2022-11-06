@@ -82,8 +82,9 @@ analytics:
 author:
   name             : "Da Gong"
   avatar           : "profile.png"
-  bio              :  "Ph.D. Candidate, Economics,
-                       UC Riverside"
+  bio              :  >
+                       Ph.D. Candidate, Economics,
+                       UC Riverside
   location         : "Riverside, California"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
