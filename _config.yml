@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Da Gong"
+title                    : "Da Gong / Economics"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -82,7 +82,8 @@ analytics:
 author:
   name             : "Da Gong"
   avatar           : "profile.png"
-  bio              : "Ph.D. Candidate, Economics, \n
+  bio              : |
+                      "Ph.D. Candidate, Economics,
                       UC Riverside"
   location         : "Riverside, CA"
   employer         :
