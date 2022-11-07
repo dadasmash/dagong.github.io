@@ -9,7 +9,8 @@ author_profile: true
 
 
 ## Working Papers
-**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors** (joint with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
+**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors** <br>
+(joint with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
 <details>
 <summary>Abstract</summary>
 <br>
