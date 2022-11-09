@@ -24,8 +24,14 @@ See more info at https://academicpages.github.io/
 # the items or contents  (e.g. 1st paper, 2nd paper in research...) are stored in corresponding folder under master directory (e.g. _research)  <br>
 # bio content (first page) is at _pages/about.md
 
-# google7cf42ba7c158084e.html is for verification purpose for Google search engine
-# see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
+#to be found by  Google Serach engine and set sitemap
+## google7cf42ba7c158084e.html is for verification purpose for Google search engine
+## see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
+## to get the sitemap address: use this link, https://dadasmash.github.io/dagong.github.io/sitemap/
+ and the sitemap to my website is https://dadasmash.github.io/dagong.github.io//sitemap.xml. 
+## Then cread the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn)
+
+
 
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
