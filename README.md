@@ -25,11 +25,11 @@ See more info at https://academicpages.github.io/
 # bio content (first page) is at _pages/about.md
 
 # to be found by  Google Serach engine and set sitemap
-## google7cf42ba7c158084e.html is for verification purpose for Google search engine
-## see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
-## to get the sitemap address: use this link, https://dadasmash.github.io/dagong.github.io/sitemap/
+1. google7cf42ba7c158084e.html is for verification purpose for Google search engine
+2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
+3. to get the sitemap address: use this link, https://dadasmash.github.io/dagong.github.io/sitemap/
  and the sitemap to my website is https://dadasmash.github.io/dagong.github.io//sitemap.xml. 
-## Then cread the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn)
+4. Then cread the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn)
 
 
 
