@@ -24,6 +24,9 @@ See more info at https://academicpages.github.io/
 # the items or contents  (e.g. 1st paper, 2nd paper in research...) are stored in corresponding folder under master directory (e.g. _research)  <br>
 # bio content (first page) is at _pages/about.md
 
+# google7cf42ba7c158084e.html is for verification purpose for Google search engine
+# see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
+
 ## To run locally (not on GitHub Pages, to serve on your own computer)
 
 1. Clone the repository and made updates as detailed above
