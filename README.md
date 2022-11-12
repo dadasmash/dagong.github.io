@@ -29,7 +29,7 @@ See more info at https://academicpages.github.io/
 2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
 3. to get the sitemap address: use this link, https://dadasmash.github.io/dagong.github.io/sitemap/
  and the sitemap to my website is https://dadasmash.github.io/dagong.github.io//sitemap.xml. 
-4. Then cread the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn)
+4. Then creat the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn)
 
 
 
