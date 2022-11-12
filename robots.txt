@@ -1,4 +1,4 @@
-Sitemap: https://dadasmash.github.io/dagong.github.io//sitemap.xml
+Sitemap: https://dadasmash.github.io/dagong.github.io/sitemap.xml
 
 User-agent: Googlebot
 Disallow:
