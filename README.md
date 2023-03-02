@@ -1,6 +1,6 @@
 ### Da Gong's Website
-https://dadasmash.github.io/dagong.github.io/
-Ph.D. Candidate, Economics, UC Riverside
+https://dadasmash.github.io/dagong.github.io/ <br>
+Ph.D. Candidate, Economics, UC Riverside <br>
 Email: dgong005@ucr.edu
 
 ------------------------
