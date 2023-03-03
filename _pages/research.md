@@ -5,11 +5,11 @@ permalink: /research/
 author_profile: true
 ---
 
-## _Publications_
+## Publications
 
 
-## _Working Papers_
-### **Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors** <br>
+## Working Papers
+### _**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors**_ <br>
 (with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
 <details>
 <summary>Abstract</summary>
@@ -27,7 +27,7 @@ aspect, i.e., the formation and evolution of personal belief.
 </details>
 
 <br>
-### **[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**  
+### _**[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**_  
 (with Andong Yan and Jialin Yu) <br>
 \[Nomination For The Best Paper Award, [1st International Workshop on the Chinese Development Model](https://cdm.iqs.url.edu/), 2022 \]
 <details>
@@ -51,8 +51,8 @@ while the subsequent dynamic clearance strategy did not generate significant dis
 the labor market outcomes in 2020.
 </details>
 
-## _Other Publications & Technical Reports_
-### **[Replication Report: A Comment on Gethin, Martínez- Toledano & Piketty (2022)](https://www.econstor.eu/bitstream/10419/268753/1/I4R-DP019.pdf)**  
+## Other Publications & Technical Reports
+### _**[Replication Report: A Comment on Gethin, Martínez- Toledano & Piketty (2022)](https://www.econstor.eu/bitstream/10419/268753/1/I4R-DP019.pdf)**_ 
 [I4R Discussion Paper](https://i4replication.org/reports.html) 19, 2023 (with [Olle Hammar](https://sites.google.com/site/ollehammar85/home)) &nbsp;&nbsp;&nbsp; [Data & Code](https://github.com/dadasmash/Brahmin_Replication)<br>
 <details>
 <summary>Abstract</summary>
@@ -60,7 +60,7 @@ the labor market outcomes in 2020.
 Gethin, Martínez-Toledano and Piketty (2022) analyze the long-run evolution of political cleavages using a new database on socioeconomic determinants of voting from approximately 300 elections in 21 Western democracies between 1948 and 2020. They find that, in the 1950s and 1960s, voting for the “left” was associated with lower-educated and low-income voters. After that, voting for the “left” has gradually become associated with higher-educated voters, while high-income voters have continued to vote for the “right”. In the 2010s, there is a disconnection between the effects of income and education on voting. In this replication, we first conduct a computational reproduction, using the replication package provided by the authors. Second, we do a robustness replication testing to what extent the original results are robust to i) restricting the sample to “core” left and right parties, ii) analyzing the top 80% versus bottom 20%, iii) weighting by population, iv) dropping control variables, and v) using country fixed effects. The main results of the paper are found to be largely replicable and robust.
 </details>
 
-## _Work in Progress_
+## Work in Progress
 
 <!-- how to add drowdown menu
 https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61 -->
