@@ -54,6 +54,7 @@ the labor market outcomes in 2020.
 ## Other Publications & Technical Reports
 **[Replication Report: A Comment on Gethin, Martínez- Toledano & Piketty (2022)](https://www.econstor.eu/bitstream/10419/268753/1/I4R-DP019.pdf)**  
 [I4R Discussion Paper](https://i4replication.org/reports.html) 19, 2023 (with [Olle Hammar](https://sites.google.com/site/ollehammar85/home)) <br>
+[Data & Code](https://github.com/dadasmash/Brahmin_Replication)<br>
 <details>
 <summary>Abstract</summary>
 <br>
