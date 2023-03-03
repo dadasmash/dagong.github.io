@@ -60,7 +60,9 @@ the labor market outcomes in 2020.
 Gethin, Martínez-Toledano and Piketty (2022) analyze the long-run evolution of political cleavages using a new database on socioeconomic determinants of voting from approximately 300 elections in 21 Western democracies between 1948 and 2020. They find that, in the 1950s and 1960s, voting for the “left” was associated with lower-educated and low-income voters. After that, voting for the “left” has gradually become associated with higher-educated voters, while high-income voters have continued to vote for the “right”. In the 2010s, there is a disconnection between the effects of income and education on voting. In this replication, we first conduct a computational reproduction, using the replication package provided by the authors. Second, we do a robustness replication testing to what extent the original results are robust to i) restricting the sample to “core” left and right parties, ii) analyzing the top 80% versus bottom 20%, iii) weighting by population, iv) dropping control variables, and v) using country fixed effects. The main results of the paper are found to be largely replicable and robust.
 </details>
 
-### _**[Currency Usage in the Huizhou Region Before and After the Taiping Rebellion: Evidence from Account Books](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kJTvBd__ewEQ9tzisoYI6gPXChRiH18v1RKVioLoYB8J80VoChA2Qd&uniplatform=NZKPT)**_ 
+### _**[Currency Usage in the Huizhou Region Before and After the Taiping Rebellion: Evidence from Account Books](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kJTvBd__ewEQ9tzisoYI6gPXChRiH18v1RKVioLoYB8J80VoChA2Qd&uniplatform=NZKPT)**_ <br>
+Jianghai Academic Journal,2023 (with [Weipeng Yuan](https://history.sjtu.edu.cn/Web/FacultyDetail/2?t=65)), in Chinese
+
 
 ## Work in Progress
 
