@@ -66,7 +66,7 @@ Gethin, Martínez-Toledano and Piketty (2022) analyze the long-run evolution of 
 </details>
 
 ### _**[Currency Usage in Huizhou Region Before and After Taiping Rebellion: Evidence from Account Books](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kJTvBd__ewEQ9tzisoYI6gPXChRiH18v1RKVioLoYB8J80VoChA2Qd&uniplatform=NZKPT)**_ <br>
-Jianghai Academic Journal,2023 (with [Weipeng Yuan](https://history.sjtu.edu.cn/Web/FacultyDetail/2?t=65)), in Chinese
+Jianghai Academic Journal, 2023 (with [Weipeng Yuan](https://history.sjtu.edu.cn/Web/FacultyDetail/2?t=65)), in Chinese
 
 
 
