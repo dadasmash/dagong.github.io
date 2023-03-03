@@ -81,7 +81,11 @@ https://gist.github.com/citrusui/07978f14b11adada364ff901e27c7f61 -->
 Well, you asked for it!
 </details> -->
 
-
+<!-- 
+change font size, color and color for hyperlink 
+https://stackoverflow.com/questions/69797708/change-the-color-of-embedded-hyperlink-in-rmarkdown-slidy
+https://stackoverflow.com/questions/66221677/how-to-change-hyperlink-color-in-github-markdown
+-->
 
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
