@@ -13,8 +13,9 @@ author_profile: true
 ## Working Papers
 
 ----------------------------------------------------------------
-### _**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors**_ <br>
+<!-- ### _**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors**_ <br> -->
 <!-- <span style="font-size:15px"> (with Zhian Hu and Chuanchuan Zhang) (draft coming soon)</span> -->
+### **Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors** <br>
 (with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
 <details>
 <summary>Abstract</summary>
@@ -60,7 +61,8 @@ the labor market outcomes in 2020.
 
 ## Other Publications & Technical Reports
 ----------------------------------------------------------------
-### _**[Replication Report: A Comment on Gethin, Martínez- Toledano & Piketty (2022)](https://www.econstor.eu/bitstream/10419/268753/1/I4R-DP019.pdf)**_ 
+<a href="https://www.econstor.eu/bitstream/10419/268753/1/I4R-DP019.pdf" style="color: black; font-weight:bold; text-decoration: underline;">
+  Replication Report: A Comment on Gethin, Martínez- Toledano & Piketty (2022)</a> <br>
 [I4R Discussion Paper](https://i4replication.org/reports.html) 19, 2023 (with [Olle Hammar](https://sites.google.com/site/ollehammar85/home)) &nbsp;&nbsp;&nbsp; [Data & Code](https://github.com/dadasmash/Brahmin_Replication)<br>
 <details>
 <summary>Abstract</summary>
