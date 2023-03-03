@@ -25,6 +25,7 @@ and robustness check. The results remain stable for dynamic effects models. This
 contributes to literature on the effects on traumatic experience by focusing on a particular
 aspect, i.e., the formation and evolution of personal belief.
 </details>
+
 ----------------------------------------------------------------
 <br>
 ### _**[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**_  
