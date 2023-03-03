@@ -14,7 +14,8 @@ author_profile: true
 
 ----------------------------------------------------------------
 ### _**Formation and Evolution of Beliefs: Famine Experience and Trust in Neighbors**_ <br>
-<span style="font-size:15px"> (with Zhian Hu and Chuanchuan Zhang) (draft coming soon)</span>
+<!-- <span style="font-size:15px"> (with Zhian Hu and Chuanchuan Zhang) (draft coming soon)</span> -->
+(with Zhian Hu and Chuanchuan Zhang) (draft coming soon)
 <details>
 <summary>Abstract</summary>
 <br>
@@ -32,6 +33,7 @@ aspect, i.e., the formation and evolution of personal belief.
 
 <br>
 ### _**[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**_  
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688" style="color: black; text-decoration: underline;">Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China</a>
 (with Andong Yan and Jialin Yu) <br>
 \[Nomination For The Best Paper Award, [1st International Workshop on the Chinese Development Model](https://cdm.iqs.url.edu/), 2022 \]
 <details>
