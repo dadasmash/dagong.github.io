@@ -34,7 +34,7 @@ aspect, i.e., the formation and evolution of personal belief.
 
 <br>
 <!-- ### _**[Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688)**_   -->
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688" style="color: black; font-weight:bold; text-decoration: underline;">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4037688" target="_blank" style="color: black; font-weight:bold; text-decoration: underline;">
   Cost of Zero-Covid: Effects of Anti-contagious Policy on Labor Market Outcomes in China</a> <br>
 (with Andong Yan and Jialin Yu) <br>
 \[Nomination For The Best Paper Award, [1st International Workshop on the Chinese Development Model](https://cdm.iqs.url.edu/), 2022 \]
@@ -61,7 +61,7 @@ the labor market outcomes in 2020.
 
 ## Other Publications & Technical Reports
 ----------------------------------------------------------------
-<a href="https://www.econstor.eu/bitstream/10419/268753/1/I4R-DP019.pdf" style="color: black; font-weight:bold; text-decoration: underline;">
+<a href="https://www.econstor.eu/bitstream/10419/268753/1/I4R-DP019.pdf" target="_blank" style="color: black; font-weight:bold; text-decoration: underline;">
   Replication Report: A Comment on Gethin, Martínez- Toledano & Piketty (2022)</a> <br>
 [I4R Discussion Paper](https://i4replication.org/reports.html) 19, 2023 (with [Olle Hammar](https://sites.google.com/site/ollehammar85/home)) &nbsp;&nbsp;&nbsp; [Data & Code](https://github.com/dadasmash/Brahmin_Replication)<br>
 <details>
@@ -71,7 +71,7 @@ Gethin, Martínez-Toledano and Piketty (2022) analyze the long-run evolution of 
 </details>
 
 <br>
-<a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kJTvBd__ewEQ9tzisoYI6gPXChRiH18v1RKVioLoYB8J80VoChA2Qd&uniplatform=NZKPT" style="color: black; font-weight:bold; text-decoration: underline;">
+<a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kJTvBd__ewEQ9tzisoYI6gPXChRiH18v1RKVioLoYB8J80VoChA2Qd&uniplatform=NZKPT" target="_blank" style="color: black; font-weight:bold; text-decoration: underline;">
   Currency Usage in Huizhou Region Before and After Taiping Rebellion: Evidence from Account Books</a> <br>
 Jianghai Academic Journal, 2023 (with [Weipeng Yuan](https://history.sjtu.edu.cn/Web/FacultyDetail/2?t=65)), in Chinese
 
