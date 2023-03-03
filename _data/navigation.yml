@@ -13,8 +13,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Datasets"
-    url: /datasets/
+  - title: "Data and Code"
+    url: /data_code/
         
   - title: "Contact"
     url: /year-archive/
