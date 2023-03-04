@@ -23,17 +23,17 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 See more info at https://academicpages.github.io/
 
 # Further instruction provided by Da Gong
-##### here's a useful link: 
+#### here's a useful link: 
 https://www.youtube.com/watch?v=jplSmg2Z-Tw
 
-##### some hint 
+#### some hint 
 for menu at the top bar, for example: Research and Datasets. <br>
 their menu option is stored at _data/navigation.yml  <br>
 the link and corresponding markdown is stored at /pages and corresponding files  <br>
 the items or contents  (e.g. 1st paper, 2nd paper in research...) are stored in corresponding folder under master directory (e.g. _research)  <br>
 bio content (first page) is at _pages/about.md
 
-##### to be found by  Google Serach engine and set sitemap
+#### to be found by  Google Serach engine and set sitemap
 1. google7cf42ba7c158084e.html is for verification purpose for Google search engine
 2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
 3. to get the sitemap address: use this link, https://dadasmash.github.io/dagong.github.io/sitemap/
