@@ -8,7 +8,7 @@ A Github Pages template for academic websites. This was forked (then detached) b
 
 I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+##### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
 # Instructions
 
@@ -22,20 +22,24 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
-# here's a useful link: https://www.youtube.com/watch?v=jplSmg2Z-Tw
+# Further instruction provided by Da Gong
+##### here's a useful link: 
+https://www.youtube.com/watch?v=jplSmg2Z-Tw
 
-# some hint, for menu at the top bar, for example: Research and Datasets. <br>
-# their menu option is stored at _data/navigation.yml  <br>
-# the link and corresponding markdown is stored at /pages and corresponding files  <br>
-# the items or contents  (e.g. 1st paper, 2nd paper in research...) are stored in corresponding folder under master directory (e.g. _research)  <br>
-# bio content (first page) is at _pages/about.md
+##### some hint 
+for menu at the top bar, for example: Research and Datasets. <br>
+their menu option is stored at _data/navigation.yml  <br>
+the link and corresponding markdown is stored at /pages and corresponding files  <br>
+the items or contents  (e.g. 1st paper, 2nd paper in research...) are stored in corresponding folder under master directory (e.g. _research)  <br>
+bio content (first page) is at _pages/about.md
 
-# to be found by  Google Serach engine and set sitemap
+##### to be found by  Google Serach engine and set sitemap
 1. google7cf42ba7c158084e.html is for verification purpose for Google search engine
 2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
 3. to get the sitemap address: use this link, https://dadasmash.github.io/dagong.github.io/sitemap/
  and the sitemap to my website is https://dadasmash.github.io/dagong.github.io//sitemap.xml. 
-4. Then creat the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn)
+4. Then creat the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn). this file is to allow google crawl and build index from your website.
+5. click "URL Inspection" section in Google Search Console and and "Request Indexing"
 
 
 
