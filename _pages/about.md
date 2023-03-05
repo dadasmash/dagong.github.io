@@ -12,7 +12,7 @@ Hello!
 
 I am a Ph.D. Candidate in Economics at University of California, Riverside.
 
-I have been serving as the Lead Consultant at <a href="https://gradquant.ucr.edu/" target="_blank" rel="noopener noreferrer">Graduate Quantitative Methods Center</a> since January 2022.
+I have been serving as the Lead Consultant at <a href="https://gradquant.ucr.edu/" target="_blank" rel="noopener noreferrer">Graduate Quantitative Methods Center</a> (GradQuant) since January 2022.
 
 My research fields are Political Economy, Labor Economics, Development Economics and Applied Machine Learning.
 
