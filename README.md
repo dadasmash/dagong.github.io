@@ -20,8 +20,7 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 1. Check status by going to the repository settings, in the "GitHub pages" section
 1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
-See more info at https://academicpages.github.io/
-
+See more info at https://academicpages.github.io/ <br>
 another template: https://github.com/alshedivat/al-folio/tree/c1428532e0735210175034d2588ce00446d3c335
 
 # Further instruction provided by Da Gong
@@ -29,7 +28,7 @@ another template: https://github.com/alshedivat/al-folio/tree/c1428532e073521017
 https://www.youtube.com/watch?v=jplSmg2Z-Tw
 
 #### some hint 
-first thing, change url and repository address in _config.yml
+first thing, change url and repository address in _config.yml <br>
 for menu at the top bar, for example: Research and Datasets. <br>
 their menu option is stored at _data/navigation.yml  <br>
 the link and corresponding markdown is stored at /pages and corresponding files  <br>
