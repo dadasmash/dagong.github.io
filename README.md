@@ -29,6 +29,7 @@ another template: https://github.com/alshedivat/al-folio/tree/c1428532e073521017
 https://www.youtube.com/watch?v=jplSmg2Z-Tw
 
 #### some hint 
+first thing, change url and repository address in _config.yml
 for menu at the top bar, for example: Research and Datasets. <br>
 their menu option is stored at _data/navigation.yml  <br>
 the link and corresponding markdown is stored at /pages and corresponding files  <br>
