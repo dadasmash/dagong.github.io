@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Research"
-permalink: /research/
+title: "Research_3"
+permalink: /research_3/
 author_profile: true
 ---
 Source: https://kmlv.github.io/research/
