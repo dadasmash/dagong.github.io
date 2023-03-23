@@ -38,6 +38,8 @@ bio content (first page) is at _pages/about.md
 To set up research page, can also refer to https://kmlv.github.io/research/ and https://zwbai.github.io/#
 <br>
 To set two colomns in webpage, check this link:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal
+<br>
+click image and direct to a specific location (within same page or otehr page): https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
 #### to be found by  Google Serach engine and set sitemap
 1. google7cf42ba7c158084e.html is for verification purpose for Google search engine
 2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
