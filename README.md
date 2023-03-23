@@ -34,7 +34,8 @@ their menu option is stored at _data/navigation.yml  <br>
 the link and corresponding markdown is stored at /pages and corresponding files  <br>
 the items or contents  (e.g. if your want to uplaod pdf file under Research section...) are stored in corresponding folder under master directory (e.g. _research)  <br>
 bio content (first page) is at _pages/about.md
-
+<br>
+To set up research page, can also refer to https://kmlv.github.io/research/ and https://zwbai.github.io/#
 #### to be found by  Google Serach engine and set sitemap
 1. google7cf42ba7c158084e.html is for verification purpose for Google search engine
 2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
