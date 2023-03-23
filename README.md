@@ -37,7 +37,9 @@ bio content (first page) is at _pages/about.md
 <br>
 To set up research page, can also refer to https://kmlv.github.io/research/ and https://zwbai.github.io/#
 <br>
-To set two colomns in webpage, check this link:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal
+To set two colomns in webpage, check this link (need to set CSS in the html header):https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_unequal
+<br>
+enlarge image when hover (need to set CSS in the html header):https://www.educative.io/answers/how-to-enlarge-an-image-on-hover-in-html 
 <br>
 click image and direct to a specific location (within same page or otehr page): https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
 #### to be found by  Google Serach engine and set sitemap
