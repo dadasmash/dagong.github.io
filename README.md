@@ -58,9 +58,27 @@ interavtive visualization: https://github.com/plotly/plotly.py
 4. Then creat the robots.txt file (https://dev.to/stankukucka/google-search-console-cant-fetch-sitemap-on-github-pages-31kn). this file is to allow google crawl and build index from your website.
 5. click "URL Inspection" section in Google Search Console and and "Request Indexing"
 
+## Use Git Bash (edit wepage locally)
+git clone https://github.com/dadasmash/dagong.github.io
+<br>
+ls 
+<br>
+cd "C:\UCR TA\GradQaunt\Workshop\Summer2023\Webpage\dagong.github.io"
+<br>
+Start making changes to the content on the page
+<br>
+git status
+<br>
+git add 
+<br>
+git commit 
+<br>
+git status
+<br>
+git push
+<br>
 
-
-## To run locally (not on GitHub Pages, to serve on your own computer)
+## To run the webpage locally (not on GitHub Pages, to serve on your own computer)
 
 1. Clone the repository and made updates as detailed above
 1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
