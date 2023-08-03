@@ -45,6 +45,9 @@ To set the size of profile photo: go to _sass/_sidebar.scss and find the .author
 
 <br>
 click image and direct to a specific location (within same page or otehr page): https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
+
+<br>
+interavtive visualization: https://github.com/plotly/plotly.py
 #### to be found by  Google Serach engine and set sitemap
 1. google7cf42ba7c158084e.html is for verification purpose for Google search engine
 2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
