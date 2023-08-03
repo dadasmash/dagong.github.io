@@ -44,10 +44,10 @@ enlarge image when hover (need to set CSS in the html header):https://www.educat
 To set the size of profile photo: go to _sass/_sidebar.scss and find the .author__avatar (see https://opinderkaur.com/). the code for oval profile could be found in the academicpages original code
 
 <br>
-click image and direct to a specific location (within same page or otehr page): https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
+click image and direct to a specific location (within same page or other page): https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page
 
 <br>
-interavtive visualization: https://github.com/plotly/plotly.py
+interactive visualization: https://github.com/plotly/plotly.py
 <br>
 
 #### to be found by  Google Serach engine and set sitemap
