@@ -18,6 +18,9 @@ main:
         
   - title: "Contact"
     url: /year-archive/
+
+  - title: "Side B"
+    url: /side_b/
   
 #   - title: "Research_2"
 #     url: /research_2/
