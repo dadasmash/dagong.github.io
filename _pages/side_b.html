@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Side B"
+permalink: /side_b/
+author_profile: true
+---
+
+<html>
+ <body>
+  <iframe src="https://www.youtube.com/watch?v=kMGefLZg4LU&t=5s"
+   width="560" height="315" frameborder="0" allowfullscreen></iframe>
+ </body>
+</html>
+
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+
