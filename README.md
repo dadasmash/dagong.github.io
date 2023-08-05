@@ -50,6 +50,10 @@ click image and direct to a specific location (within same page or other page): 
 interactive visualization: https://github.com/plotly/plotly.py
 <br>
 
+<br>
+insert Youtube video (the last answer): https://stackoverflow.com/questions/34708476/jekyll-blog-hosted-in-github-how-to-insert-youtube-embeddings
+<br>
+
 #### to be found by  Google Serach engine and set sitemap
 1. google7cf42ba7c158084e.html is for verification purpose for Google search engine
 2. see https://search.google.com/search-console/welcome and https://github.com/alshedivat/al-folio/discussions/442
