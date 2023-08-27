@@ -14,7 +14,7 @@ I am a Ph.D. Candidate in Economics at University of California, Riverside.
 
 I have been serving as the Lead Consultant at <a href="https://gradquant.ucr.edu/" target="_blank" rel="noopener noreferrer">Graduate Quantitative Methods Center</a> (GradQuant, UCR) since January 2023.
 
-My research fields are Political Economy, Development Economics, Culture and Institution, Labor Economics and Applied Machine Learning.
+My research interests are Political Economy, Development Economics, Culture and Institution, Labor Economics and Applied Machine Learning.
 
 My CV can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_Academic_CV.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
