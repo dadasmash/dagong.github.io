@@ -62,6 +62,17 @@ br {
 }
 
 </style>
+
+.splide__slide img {
+  width: 350px;
+  height: 250px;
+}
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-slider' ).mount();
+  } );
+</script>
 </head>
 	
 <!-- The body of webpage starts here -->
@@ -106,10 +117,22 @@ br {
 <span style="font-size:17px"> (with Zhian Hu and Chuanchuan Zhang) </span>
 </div>
 <div class="row">
-	<div class="column left">
-					
+	<div class="column left">		
 	  <a href="#Famine" target="_blank ">
-		<img class="img-thumbnail img-responsive " src="../images/Famine.jpg" onclick="op(this.src)">
+<!-- 		<img class="img-thumbnail img-responsive " src="../images/Famine.jpg" onclick="op(this.src)"> -->
+		<div id="image-slider" class="splide">
+  			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<img class="img-thumbnail img-responsive " src="../images/Famine_HC.png" onclick="op(this.src)">
+					</li>
+					<li class="splide__slide">
+						<img class="img-thumbnail img-responsive " src="../images/Famine_LC.png" onclick="op(this.src)">
+					</li>
+		
+				</ul>
+  			</div>
+		</div>
 	  </a>
 	  </div>
 	
