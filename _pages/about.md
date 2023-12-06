@@ -18,9 +18,9 @@ My research interests are Political Economy, Development Economics, Public Econo
 
 My CV can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_Academic_CV.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
-My Research Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_research_statement_Nov016.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+My Research Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_research_statement_Dec05.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 &nbsp;
-My Teaching Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingStatement_Nov15.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+My Teaching Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingStatement_Dec01.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 <p><strong>I am on the 2023-2024 job market.</strong></p>
 
