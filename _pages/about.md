@@ -20,7 +20,7 @@ My CV can be found <a href="http://dadasmash.github.io/dagong.github.io/files/Da
 
 My Research Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_research_statement_Dec05.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 &nbsp;
-My Teaching Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingStatement_Dec01.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+My Teaching Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_T_D_Statement_Dec26.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 <p><strong>I am on the 2023-2024 job market.</strong></p>
 
