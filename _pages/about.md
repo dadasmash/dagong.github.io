@@ -22,9 +22,9 @@ My Research Statement can be found <a href="http://dadasmash.github.io/dagong.gi
 &nbsp;
 My Teaching Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingStatement_Mar082024.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 &nbsp;<br>
-My Teaching Effectiveness can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingEval_Mar052024.pdf" target="_blank" rel="noopener noreferrer">here</a>.
-&nbsp;
 My Diversity Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_DStatetment_Mar082024.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+&nbsp;
+My Teaching Effectiveness can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingEval_Mar052024.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
 <p><strong>I am on the 2023-2024 job market.</strong></p>
 
