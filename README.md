@@ -1,7 +1,9 @@
 ### Da Gong's Website
 https://dadasmash.github.io/dagong.github.io/ <br>
-Ph.D. Candidate, Economics, UC Riverside <br>
-Email: dgong005@ucr.edu
+Lecturer in Data Analytics <br>
+State University of New York, Geneseo <br>
+PhD in Economics <br>
+Email: dgong@geneseo.edu
 
 ------------------------
 A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
