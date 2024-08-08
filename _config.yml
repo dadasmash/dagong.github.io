@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Da Gong / Economics"
+title                    : "Da Gong"
 title_separator          : "-"
 name                     : &name "Da Gong"
-description              : &description "Ph.D. Candidate in Economics at UC Riverside"
+description              : &description "Lecturer of Data Analytics at SUNY Geneseo"
 url                      : https://dadasmash.github.io/dagong.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "dadasmash/dagong.github.io"
@@ -83,11 +83,10 @@ author:
   name             : "Da Gong"
   avatar           : "profile2.jpg"
   bio              : |
-                     "Ph.D. Candidate, Economics,  
-                      UC Riverside"               
+                     "Lecturer of Data Analytics at SUNY Geneseo"               
 
  # linebreaker in yml, ref: https://stackoverflow.com/questions/3790454/how-do-i-break-a-string-in-yaml-over-multiple-lines
-  location         : "Riverside, California"
+  location         : "Geneseo , New York"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=0KDfP1oAAAAJ&hl=en"
