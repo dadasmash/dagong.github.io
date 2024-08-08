@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Hello! 
 
 I am a Lecturer of Data Analytics in the School of Business at the State University of New York, Geneseo. I received a Ph.D. in Economics from University of California, Riverside, and a M.A. in History from Graduate School of Chinese Academy of Social Sciences.
 
