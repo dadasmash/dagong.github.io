@@ -10,15 +10,15 @@ redirect_from:
 
 Hello! 
 
-I am a Ph.D. Candidate in Economics at University of California, Riverside.
+I am a Lecturer of Data Analytics in the School of Business at the State University of New York, Geneseo. I received a Ph.D. in Economics from University of California, Riverside, and a M.A. in History from Graduate School of Chinese Academy of Social Sciences.
 
-I have been serving as the Lead Consultant at <a href="https://gradquant.ucr.edu/" target="_blank" rel="noopener noreferrer">Graduate Quantitative Methods Center</a> (GradQuant, UCR) since January 2023.
+My research interests are Political Economy, Development Economics, Public Economics, Culture and Institution and Applied Machine Learning. My work focus on how people's values, beliefs, and social norms are influenced by the state. 
 
-My research interests are Political Economy, Development Economics, Public Economics, Culture and Institution, Labor Economics and Applied Machine Learning.
+Before I graduated from UC Riverside, I served as the Lead Consultant at <a href="https://gradquant.ucr.edu/" target="_blank" rel="noopener noreferrer">Graduate Quantitative Methods Center</a> (GradQuant, UCR) from January 2023 to June 2024.
 
 My CV can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_Academic_CV.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
-My Research Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_research_statement_Dec05.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+<!-- My Research Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_research_statement_Dec05.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 &nbsp;
 My Teaching Statement can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingStatement_Mar082024.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 &nbsp;<br>
@@ -26,9 +26,9 @@ My Diversity Statement can be found <a href="http://dadasmash.github.io/dagong.g
 &nbsp;
 My Teaching Effectiveness can be found <a href="http://dadasmash.github.io/dagong.github.io/files/DaGong_TeachingEval_Mar052024.pdf" target="_blank" rel="noopener noreferrer">here</a>.
 
-<p><strong>I am on the 2023-2024 job market.</strong></p>
+<p><strong>I am on the 2023-2024 job market.</strong></p> -->
 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). 
 
 A data-driven personal website
 ======
