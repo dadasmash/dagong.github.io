@@ -1,6 +1,6 @@
 ### Da Gong's Website
 https://dadasmash.github.io/dagong.github.io/ <br>
-Lecturer in Data Analytics <br>
+Lecturer of Data Analytics <br>
 State University of New York, Geneseo <br>
 PhD in Economics <br>
 Email: dgong@geneseo.edu
