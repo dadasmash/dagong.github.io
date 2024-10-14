@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am a Lecturer of Data Analytics in the School of Business at the State University of New York, Geneseo. I received a Ph.D. in Economics from University of California, Riverside, and a M.A. in History from Graduate School of Chinese Academy of Social Sciences.
+I am a Lecturer of Data Analytics in the School of Business at the State University of New York College at Geneseo. I received a Ph.D. in Economics from University of California, Riverside, and a M.A. in History from Graduate School of Chinese Academy of Social Sciences.
 
 My research interests are Political Economy, Development Economics, Public Economics, Culture and Institution and Applied Machine Learning. My work focus on how people's values, beliefs, and social norms are influenced by the state. 
 
