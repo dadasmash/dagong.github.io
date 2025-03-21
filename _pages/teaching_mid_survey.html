@@ -5,27 +5,9 @@ permalink: /teaching_mid_survey/
 author_profile: true
 ---
 <!--Ref:https://www.geeksforgeeks.org/build-a-survey-form-using-html-and-css/  -->
-<!-- Google Apps Script Tutorial - Saving Form Data to Google Sheets -->
+<!-- https://www.youtube.com/watch?v=jdIntB1J-i8 -->
 <!-- https://github.com/jamiewilson/form-to-google-sheets?tab=readme-ov-file -->
-<!--Set Up Google Apps Script
-     0. Go to Google Sheets and create a new sheet.
-        Rename the sheet to SurveyResponses.
-        In row 1, add column headers: e.g. Name, Email, Feedback
-    1. In your Google Sheet, click Extensions > Apps Script.  
-    2. Delete any existing code and paste the following javascript:
-function doPost(e) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("SurveyResponses");
-  var data = JSON.parse(e.postData.contents);
-  sheet.appendRow([data.name, data.email, data.feedback]);
-  return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
-}
-Notes: need to change column names accordingly; need to repalce "SurveyResponses" with google sheet name
-3. Click Deploy > New Deployment.
-4. Select "Web App", set "Anyone" as the access level.
-5. Click Deploy and Authorize the script.
-6. Copy the web app URL (e.g., https://script.google.com/macros/s/.../exec).
-7. Replace "YOUR_GOOGLE_SCRIPT_URL_HERE" with your Google Apps Script URL from Step 2.
--->
+<!-- https://github.com/levinunnink/html-form-to-google-sheet -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,7 +76,7 @@ Notes: need to change column names accordingly; need to repalce "SurveyResponses
 <body>
     <h1>Mid-Semester Survey</h1>
 
-    <form id="form">
+    <form id="form" method="POST" action="" name="form">
         <div class="form-control">
             <label for="course-1">Which course are you enrolling in? (Check all that apply)</label>
             <input type="checkbox" name="course" id="course-1" />
@@ -154,7 +136,23 @@ Notes: need to change column names accordingly; need to repalce "SurveyResponses
 
         <button type="submit">Submit</button>
     </form>
+     <script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbxjTcOFOUmX4_OljYRoVc7OONGvPdEx3mWXsa0_1JWGnEEj51WXZ32XTpSWHRly5oFc/exec';
+   const form = document.getElementById("form");
 
+   form.addEventListener("submit", e => {
+   e.preventDefault();
+    fetch(scriptURL, {
+        method: "POST",
+        body: new FormData(form) 
+    })
+    .then(response => {
+        alert("Thank you! Submitted successfully!"); 
+        window.location.reload(); 
+    })
+    .catch(error => console.error("Error:", error.message));
+});
+     </script>
    
 </body>
 </html>
