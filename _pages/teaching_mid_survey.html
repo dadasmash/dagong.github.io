@@ -142,12 +142,18 @@ author_profile: true
     <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxjTcOFOUmX4_OljYRoVc7OONGvPdEx3mWXsa0_1JWGnEEj51WXZ32XTpSWHRly5oFc/exec';
   const form = document.getElementById("form")
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(scriptURL, {
+        method: "POST",
+        body: new FormData(form) 
+    })
+    .then(response => {
+        alert("Thank you! Submitted successfully!");
+        window.location.reload(); 
+    })
+    .catch(error => console.error("Error:", error.message));
+    });
      </script>
    
 </body>
