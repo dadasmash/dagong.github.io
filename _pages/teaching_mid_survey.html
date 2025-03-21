@@ -16,6 +16,7 @@ function doPost(e) {
   sheet.appendRow([data.name, data.email, data.feedback]);
   return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
 }
+Notes: need to change column names accordingly
 3. Click Deploy > New Deployment.
 4. Select "Web App", set "Anyone" as the access level.
 5. Click Deploy and Authorize the script.
