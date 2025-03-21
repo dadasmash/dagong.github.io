@@ -24,6 +24,7 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/ <br>
 another template: https://github.com/alshedivat/al-folio/tree/c1428532e0735210175034d2588ce00446d3c335
+interactive example: https://github.com/alcocer-jj/TextVizStudio?tab=readme-ov-file
 
 # Further instruction provided by Da Gong
 #### here's a useful link: 
