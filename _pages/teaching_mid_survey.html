@@ -31,24 +31,17 @@ Notes: need to change column names accordingly; need to repalce "SurveyResponses
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" 
-          content="IE=edge">
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0">
-    <title>
-<!--         Build a Survey Form using HTML and CSS -->
-    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid-Semester Survey</title>
 
     <style>
-        /* Styling the Body element 
-        i.e. Color, Font, Alignment */
         body {
             background-color: #FFFFFF;
             font-family: Verdana;
             text-align: center;
         }
 
-        /* Styling the Form (Color, Padding, Shadow) */
         form {
             background-color: #fff;
             max-width: 500px;
@@ -57,20 +50,16 @@ Notes: need to change column names accordingly; need to repalce "SurveyResponses
             box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
         }
 
-        /* Styling form-control Class */
         .form-control {
             text-align: left;
             margin-bottom: 25px;
         }
 
-        /* Styling form-control Label */
         .form-control label {
             display: block;
             margin-bottom: 10px;
         }
 
-        /* Styling form-control input, 
-        select, textarea */
         .form-control input,
         .form-control select,
         .form-control textarea {
@@ -82,15 +71,12 @@ Notes: need to change column names accordingly; need to repalce "SurveyResponses
             width: 95%;
         }
 
-        /* Styling form-control Radio 
-        button and Checkbox */
         .form-control input[type="radio"],
         .form-control input[type="checkbox"] {
             display: inline-block;
             width: auto;
         }
 
-        /* Styling Button */
         button {
             background-color: #05c46b;
             border: 1px solid #777;
@@ -108,171 +94,99 @@ Notes: need to change column names accordingly; need to repalce "SurveyResponses
 <body>
     <h1>Mid-Semester Survey</h1>
 
-    <!-- Create Form -->
     <form id="form">
-
-        <!-- Courses -->
-       <div class="form-control">
-            <label> Which course are you enrolling in?
-                <small>(Check all that apply)</small>
-            </label>
-            <!-- Input Type Checkbox -->
-            <label for="course-1">
-                <input type="checkbox" name="course"> DANL101-01
-                  </input>
-              </label>
-            <label for="course-2">
-                <input type="checkbox" name="course"> DANL101-02
-                  </input>
-            </label>
-            <label for="course-3">
-                <input type="checkbox" name="course"> MGMT350
-                  </input>
-            </label>
-            <label for="course-4">
-                <input type="checkbox" name="course"> DANL202
-                  </input>
+        <div class="form-control">
+            <label for="course-1">Which course are you enrolling in? (Check all that apply)</label>
+            <input type="checkbox" name="course" id="course-1" />
+            <label for="course-1">DANL101-01</label>
+            <input type="checkbox" name="course" id="course-2" />
+            <label for="course-2">DANL101-02</label>
+            <input type="checkbox" name="course" id="course-3" />
+            <label for="course-3">MGMT350</label>
+            <input type="checkbox" name="course" id="course-4" />
+            <label for="course-4">DANL202</label>
         </div>
 
-           <!--  4 stages of College-->
-         <div class="form-control">
-            <label for="stage" id="label-stage">
-                Which option best describes you?
-            </label>
-            <!-- Dropdown options -->
+        <div class="form-control">
+            <label for="stage">Which option best describes you?</label>
             <select name="stage" id="stage">
-                <option value="first year">first year</option>
-                <option value="intern">sophomore</option>
-                <option value="junior">junior</option>
-                <option value="senior">senior</option>
+                <option value="first year">First Year</option>
+                <option value="sophomore">Sophomore</option>
+                <option value="junior">Junior</option>
+                <option value="senior">Senior</option>
             </select>
         </div>
 
-         
-            <!-- Comments on organization-->
-          <div class="form-control">
-            <label for="organization">
-                Please share your thoughts on the organization of the course?
-            </label>
-
-            <!-- multi-line text input control -->
-            <textarea name="organization" id="organization" 
-                      placeholder="organization">
-            </textarea>
-        </div>
-
-
-          <!-- interesting-->
-          <div class="form-control">
-            <label for="interesting">
-                Which topic in this course has been the most interesting so far?
-            </label>
-
-            <!-- multi-line text input control -->
-            <textarea name="interesting" id="interesting" 
-                      placeholder="interesting">
-            </textarea>
-        </div>
-
-          <!-- boring-->
-          <div class="form-control">
-            <label for="boring">
-                Which topic in this course has been the most boring so far?
-            </label>
-
-            <!-- multi-line text input control -->
-            <textarea name="boring" id="boring" 
-                      placeholder="boring">
-            </textarea>
-        </div>
-
-         <!-- challenging-->
-          <div class="form-control">
-            <label for="challenging">
-                Which part of this course has been the most challenging or confusing so far?
-            </label>
-
-            <!-- multi-line text input control -->
-            <textarea name="challenging" id="challenging" 
-                      placeholder="challenging">
-            </textarea>
-        </div>
-
-         
         <div class="form-control">
-            <label>
-                Are you satisfied with your midterm grades?
-            </label>
-            <!-- Input Type Radio Button -->
-            <label for="satisfied-1">
-                <input type="radio" id="satisfied-1" 
-                       name="satisfied"> Yes
-                  </input>
-            </label>
-            <label for="satisfied-2">
-                <input type="radio" id="satisfied-2" 
-                       name="satisfied"> No
-                  </input>
-            </label>
-            <label for="satisfied-3">
-                <input type="radio" id="satisfied-3" 
-                       name="satisfied"> I don't care
-                  </input>
-            </label>
+            <label for="organization">Please share your thoughts on the organization of the course:</label>
+            <textarea name="organization" id="organization" placeholder="Organization" required></textarea>
         </div>
-
-        
 
         <div class="form-control">
-            <label for="comment">
-                Do you have any comments or suggestions about this class so far?
-            </label>
-
-            <!-- multi-line text input control -->
-            <textarea name="comment" id="comment" 
-                      placeholder="Enter your comment here">
-            </textarea>
+            <label for="interesting">Which topic in this course has been the most interesting so far?</label>
+            <textarea name="interesting" id="interesting" placeholder="Interesting" required></textarea>
         </div>
 
-        <!-- Multi-line Text Input Control -->
-        <button type="submit" value="submit">
-            Submit
-        </button>
+        <div class="form-control">
+            <label for="boring">Which topic in this course has been the most boring so far?</label>
+            <textarea name="boring" id="boring" placeholder="Boring" required></textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="challenging">Which part of this course has been the most challenging or confusing so far?</label>
+            <textarea name="challenging" id="challenging" placeholder="Challenging" required></textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="satisfied-1">Are you satisfied with your midterm grades?</label>
+            <input type="radio" id="satisfied-1" name="satisfied" value="Yes" />
+            <label for="satisfied-1">Yes</label>
+            <input type="radio" id="satisfied-2" name="satisfied" value="No" />
+            <label for="satisfied-2">No</label>
+            <input type="radio" id="satisfied-3" name="satisfied" value="I don't care" />
+            <label for="satisfied-3">I don't care</label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">Do you have any comments or suggestions about this class so far?</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
     </form>
 
- <script>      
+    <script>
         document.getElementById("form").addEventListener("submit", async function(event) {
-    event.preventDefault();
+            event.preventDefault();
 
-    // Get all selected checkboxes
-    const selectedCourses = Array.from(document.querySelectorAll('input[name="course"]:checked'))
-                                 .map(checkbox => checkbox.nextSibling.textContent.trim());
+            const selectedCourses = Array.from(document.querySelectorAll('input[name="course"]:checked'))
+                .map(checkbox => checkbox.nextElementSibling.textContent.trim());
 
-    const formData = {
-        course: selectedCourses.join(", "),  // Join selected courses as a comma-separated string
-        stage: document.getElementById("stage").value,
-        organization: document.getElementById("organization").value,
-        interesting: document.getElementById("interesting").value,
-        boring: document.getElementById("boring").value,
-        challenging: document.getElementById("challenging").value,
-        satisfied: document.querySelector('input[name="satisfied"]:checked') ? 
-                   document.querySelector('input[name="satisfied"]:checked').nextSibling.textContent.trim() : "No response",
-        comment: document.getElementById("comment").value
-    };
+            const formData = {
+                course: selectedCourses.join(", "),
+                stage: document.getElementById("stage").value,
+                organization: document.getElementById("organization").value,
+                interesting: document.getElementById("interesting").value,
+                boring: document.getElementById("boring").value,
+                challenging: document.getElementById("challenging").value,
+                satisfied: document.querySelector('input[name="satisfied"]:checked') ? 
+                    document.querySelector('input[name="satisfied"]:checked').nextElementSibling.textContent.trim() : "No response",
+                comment: document.getElementById("comment").value
+            };
 
-    const response = await fetch("https://script.google.com/macros/s/AKfycbx2HbDL1JDFWVBS23Pdv8kypcfjb6abA1Uq_mBS0MSQ2oetqt1wAJspHDoWzn-wkIkZ/exec", {
-        method: "POST",
-        body: JSON.stringify(formData),
-        headers: { "Content-Type": "application/json" }
-    });
+            const response = await fetch("https://script.google.com/macros/s/AKfycbx2HbDL1JDFWVBS23Pdv8kypcfjb6abA1Uq_mBS0MSQ2oetqt1wAJspHDoWzn-wkIkZ/exec", {
+                method: "POST",
+                body: JSON.stringify(formData),
+                headers: { "Content-Type": "application/json" }
+            });
 
-    if (response.ok) {
-        alert("Survey submitted successfully!");
-        this.reset();
-    } else {
-        alert("Submission failed.");
-    }
-});
-</script>
+            if (response.ok) {
+                alert("Survey submitted successfully!");
+                this.reset();
+            } else {
+                alert("Submission failed.");
+            }
+        });
+    </script>
 </body>
 </html>
