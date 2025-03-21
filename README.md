@@ -26,7 +26,7 @@ See more info at https://academicpages.github.io/ <br>
 another template: https://github.com/alshedivat/al-folio/tree/c1428532e0735210175034d2588ce00446d3c335 <br>
 interactive example: https://github.com/alcocer-jj/TextVizStudio?tab=readme-ov-file <br>
                      https://varlam.net/ <br>
-                     streamlit
+                     [streamlit](https://streamlit.io/)
 
 # Further instruction provided by Da Gong
 #### here's a useful link: 
