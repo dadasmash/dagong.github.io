@@ -7,6 +7,21 @@ author_profile: true
 <!--Ref:https://www.geeksforgeeks.org/build-a-survey-form-using-html-and-css/  -->
 <!-- Google Apps Script Tutorial - Saving Form Data to Google Sheets -->
 <!-- https://github.com/jamiewilson/form-to-google-sheets?tab=readme-ov-file -->
+<!--Set Up Google Apps Script
+    1. In your Google Sheet, click Extensions > Apps Script.  
+    2. Delete any existing code and paste the following javascript:
+function doPost(e) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("SurveyResponses");
+  var data = JSON.parse(e.postData.contents);
+  sheet.appendRow([data.name, data.email, data.feedback]);
+  return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
+}
+3. Click Deploy > New Deployment.
+4. Select "Web App", set "Anyone" as the access level.
+5. Click Deploy and Authorize the script.
+6. Copy the web app URL (e.g., https://script.google.com/macros/s/.../exec).
+7. Replace "YOUR_GOOGLE_SCRIPT_URL_HERE" with your Google Apps Script URL from Step 2.
+-->
 <!DOCTYPE html>
 <html lang="en">
 
