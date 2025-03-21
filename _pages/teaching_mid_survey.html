@@ -240,23 +240,21 @@ Notes: need to change column names accordingly; need to repalce "SurveyResponses
         </button>
     </form>
 
- <script>
-          <!-- replace getElementById("teaching_mid_survey_25S")-->
-               
-        document.getElementById("teaching_mid_survey_25S").addEventListener("submit", async function(event) {
+ <script>      
+        document.getElementById("form").addEventListener("submit", async function(event) {
             event.preventDefault();
             const formData = {
                 course: document.getElementById("course").value,
                 stage: document.getElementById("stage").value,
-                organization: document.getElementById("organization").value
+                organization: document.getElementById("organization").value,
                 interesting: document.getElementById("interesting").value,
                 boring: document.getElementById("boring").value,
-                challenging: document.getElementById("challenging").value
+                challenging: document.getElementById("challenging").value,
                 boring: document.getElementById("satisfied").value,
                 challenging: document.getElementById("comment").value
             };
 
-            const response = await fetch("https://script.google.com/a/macros/geneseo.edu/s/AKfycbyqUwxTJUQLHKEyChweZ5jNDta_YzY2CmfN46pcMoo1vihGEzYntGLNwEx7zRZMnYai/exec, {
+            const response = await fetch("https://script.google.com/a/macros/geneseo.edu/s/AKfycbyqUwxTJUQLHKEyChweZ5jNDta_YzY2CmfN46pcMoo1vihGEzYntGLNwEx7zRZMnYai/exec", {
                 method: "POST",
                 body: JSON.stringify(formData),
                 headers: { "Content-Type": "application/json" }
