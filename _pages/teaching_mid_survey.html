@@ -19,7 +19,7 @@ function doPost(e) {
   sheet.appendRow([data.name, data.email, data.feedback]);
   return ContentService.createTextOutput("Success").setMimeType(ContentService.MimeType.TEXT);
 }
-Notes: need to change column names accordingly
+Notes: need to change column names accordingly; need to repalce "SurveyResponses" with google sheet name
 3. Click Deploy > New Deployment.
 4. Select "Web App", set "Anyone" as the access level.
 5. Click Deploy and Authorize the script.
@@ -106,7 +106,7 @@ Notes: need to change column names accordingly
 </head>
 
 <body>
-    <h1>GeeksforGeeks Survey Form</h1>
+    <h1>Mid-Semester Survey</h1>
 
     <!-- Create Form -->
     <form id="form">
@@ -149,7 +149,7 @@ Notes: need to change column names accordingly
         </div>
 
          
-            <!-- Comments on organizationl-->
+            <!-- Comments on organization-->
           <div class="form-control">
             <label for="organization">
                 Please share your thoughts on the organization of the course?
@@ -239,6 +239,38 @@ Notes: need to change column names accordingly
             Submit
         </button>
     </form>
-</body>
 
+ <script>
+          <!-- replace getElementById("teaching_mid_survey_25S")-->
+               
+        document.getElementById("teaching_mid_survey_25S").addEventListener("submit", async function(event) {
+            event.preventDefault();
+            const formData = {
+                course: document.getElementById("course").value,
+                stage: document.getElementById("stage").value,
+                organization: document.getElementById("organization").value
+                interesting: document.getElementById("interesting").value,
+                boring: document.getElementById("boring").value,
+                challenging: document.getElementById("challenging").value
+                boring: document.getElementById("satisfied").value,
+                challenging: document.getElementById("comment").value
+            };
+
+            const response = await fetch("https://script.google.com/a/macros/geneseo.edu/s/AKfycbyqUwxTJUQLHKEyChweZ5jNDta_YzY2CmfN46pcMoo1vihGEzYntGLNwEx7zRZMnYai/exec, {
+                method: "POST",
+                body: JSON.stringify(formData),
+                headers: { "Content-Type": "application/json" }
+            });
+
+           <!-- replace "YOUR_GOOGLE_SCRIPT_URL_HERE"-->
+
+            if (response.ok) {
+                alert("Survey submitted successfully!");
+                this.reset();
+            } else {
+                alert("Submission failed.");
+            }
+        });
+    </script>
+</body>
 </html>
