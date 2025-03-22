@@ -77,67 +77,12 @@ author_profile: true
 <body>
     <h1>Mid-Semester Survey</h1>
 
-    <form id="form" method="POST" action="" name="form">
-        <div class="form-control">
-            <label for="course-1">Which course are you enrolling in? (Check all that apply)</label>
-            <input type="checkbox" name="course" id="course-1" />
-            <label for="course-1">DANL101-01</label>
-            <input type="checkbox" name="course" id="course-2" />
-            <label for="course-2">DANL101-02</label>
-            <input type="checkbox" name="course" id="course-3" />
-            <label for="course-3">MGMT350</label>
-            <input type="checkbox" name="course" id="course-4" />
-            <label for="course-4">DANL202</label>
-        </div>
-
-        <div class="form-control">
-            <label for="stage">Which option best describes you?</label>
-            <select name="stage" id="stage">
-                <option value="first year">First Year</option>
-                <option value="sophomore">Sophomore</option>
-                <option value="junior">Junior</option>
-                <option value="senior">Senior</option>
-            </select>
-        </div>
-
-        <div class="form-control">
-            <label for="organization">Please share your thoughts on the organization of the course:</label>
-            <textarea name="organization" id="organization" placeholder="Organization" ></textarea>
-        </div>
-
-        <div class="form-control">
-            <label for="interesting">Which topic in this course has been the most interesting so far?</label>
-            <textarea name="interesting" id="interesting" placeholder="Interesting" ></textarea>
-        </div>
-
-        <div class="form-control">
-            <label for="boring">Which topic in this course has been the most boring so far?</label>
-            <textarea name="boring" id="boring" placeholder="Boring" ></textarea>
-        </div>
-
-        <div class="form-control">
-            <label for="challenging">Which part of this course has been the most challenging or confusing so far?</label>
-            <textarea name="challenging" id="challenging" placeholder="Challenging" ></textarea>
-        </div>
-
-        <div class="form-control">
-            <label for="satisfied-1">Are you satisfied with your midterm grades?</label>
-            <input type="radio" id="satisfied-1" name="satisfied" value="Yes" />
-            <label for="satisfied-1">Yes</label>
-            <input type="radio" id="satisfied-2" name="satisfied" value="No" />
-            <label for="satisfied-2">No</label>
-            <input type="radio" id="satisfied-3" name="satisfied" value="I don't care" />
-            <label for="satisfied-3">I don't care</label>
-        </div>
-
-        <div class="form-control">
-            <label for="comment">Do you have any comments or suggestions about this class so far?</label>
-            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
-        </div>
-
-        <button type="submit">Submit</button>
-    </form>
-
+  <form name="form">
+  <input name="email" type="email" placeholder="Email" required>
+  <input name="firstName" type="text" placeholder="First Name">
+  <input name="lastName" type="text" placeholder="Last Name">
+  <button type="submit">Send</button>
+</form>
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbxjTcOFOUmX4_OljYRoVc7OONGvPdEx3mWXsa0_1JWGnEEj51WXZ32XTpSWHRly5oFc/exec'
