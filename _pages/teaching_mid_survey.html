@@ -78,16 +78,19 @@ author_profile: true
     <h1>Mid-Semester Survey</h1>
 
     <form id="form" method="POST" action="" name="form">
-        <div class="form-control">
-            <label for="course-1">Which course are you enrolling in? (Check all that apply)</label>
-            <input type="checkbox" name="course" id="course-1" />
-            <label for="course-1">DANL101-01</label>
-            <input type="checkbox" name="course" id="course-2" />
-            <label for="course-2">DANL101-02</label>
-            <input type="checkbox" name="course" id="course-3" />
-            <label for="course-3">MGMT350</label>
-            <input type="checkbox" name="course" id="course-4" />
-            <label for="course-4">DANL202</label>
+  	<div class="form-control">
+            <label for="course">Which course are you enrolling in? <br>
+ <small> If you are enrolling in multiple courses with me, please submit a separate form for each course.  </small>
+            </label>
+
+            <input type="radio" id="course-1" name="course" value="DANL101-1" />
+            <label for="course-1"> DANL101-1</label>
+            <input type="radio" id="course-2" name="course" value="DANL101-2" />
+            <label for="course-2"> DANL101-2</label>
+            <input type="radio" id="course-3" name="course" value="MGMT350" />
+            <label for="course-3"> MGMT350</label>
+	    <input type="radio" id="course-4" name="course" value="DANL202" />
+            <label for="course-4"> DANL202</label>
         </div>
 
         <div class="form-control">
@@ -102,22 +105,52 @@ author_profile: true
 
         <div class="form-control">
             <label for="organization">Please share your thoughts on the organization of the course:</label>
-            <textarea name="organization" id="organization" placeholder="Organization" ></textarea>
+            <textarea name="organization" id="organization" placeholder="Input here" ></textarea>
         </div>
 
         <div class="form-control">
             <label for="interesting">Which topic in this course has been the most interesting so far?</label>
-            <textarea name="interesting" id="interesting" placeholder="Interesting" ></textarea>
+            <textarea name="interesting" id="interesting" placeholder="Input here" ></textarea>
         </div>
 
         <div class="form-control">
             <label for="boring">Which topic in this course has been the most boring so far?</label>
-            <textarea name="boring" id="boring" placeholder="Boring" ></textarea>
+            <textarea name="boring" id="boring" placeholder="Input here" ></textarea>
         </div>
 
         <div class="form-control">
             <label for="challenging">Which part of this course has been the most challenging or confusing so far?</label>
-            <textarea name="challenging" id="challenging" placeholder="Challenging" ></textarea>
+            <textarea name="challenging" id="challenging" placeholder="Input here" ></textarea>
+        </div>
+
+	<div class="form-control">
+            <label for="homework">Please rate the difficulty level of the homework.</label>
+            <input type="radio" id="homework-1" name="homework" value="Easy" />
+            <label for="homework-1">Easy</label>
+            <input type="radio" id="homework-2" name="homework" value="Moderate" />
+            <label for="homework-2">Moderate</label>
+            <input type="radio" id="homework-3" name="homework" value="Difficult" />
+            <label for="homework-3">Difficult</label>
+        </div>
+
+	<div class="form-control">
+            <label for="exam">Please rate the difficulty level of the exam.</label>
+            <input type="radio" id="exam-1" name="exam" value="Easy" />
+            <label for="exam-1">Easy</label>
+            <input type="radio" id="exam-2" name="exam" value="Moderate" />
+            <label for="exam-2">Moderate</label>
+            <input type="radio" id="exam-3" name="exam" value="Difficult" />
+            <label for="exam-3">Difficult</label>
+        </div>
+
+	<div class="form-control">
+            <label for="prep">How well did the lecture, slides, and homework help you prepare for studying and the exam? </label>
+            <input type="radio" id="prep-1" name="prep" value="Very Helpful" />
+            <label for="prep-1">Very Helpful</label>
+            <input type="radio" id="prep-2" name="prep" value="Somewhat Helpful" />
+            <label for="prep-2">Somewhat Helpful</label>
+            <input type="radio" id="prep-3" name="prep" value="Not Helpful" />
+            <label for="prep-3">Not Helpful</label>
         </div>
 
         <div class="form-control">
@@ -146,7 +179,7 @@ author_profile: true
     e.preventDefault();
     fetch(scriptURL, {
         method: "POST",
-        mode: "no-cors",
+	mode: "no-cors",
         body: new FormData(form) 
     })
     .then(response => {
