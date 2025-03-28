@@ -168,100 +168,27 @@ author_profile: true
             <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
         </div>
 
-        <br>
-	<div class="field is-grouped">
-        <div class="control">
-          <button class="button is-primary" type="submit" id="submit-button">
-            Submit
-          </button>
-         </div>
-        <div class="control">
-          <button class="button is-danger">Cancel</button>
-        </div>
-     	</div>
-
-	<div
-         id="message"
-         style="
-         display: none;
-         margin: 18px;
-         font-weight: bold;
-         color: green;
-         padding: 8px;
-         background-color: beige;
-         border-radius: 4px;
-         border-color: aquamarine;">
-	 </div>
-
+        <button type="submit">Submit</button>
     </form>
 
 
-<script>
-    const form = document.getElementById('form');
-    const messageElement = document.getElementById('message');
-    const submitButton = document.getElementById('submit-button');
-
-    form.addEventListener("submit", function (e) {
-        e.preventDefault(); // Prevent the default form submission
-        messageElement.textContent = "Submitting..";
-        messageElement.style.display = "block";
-        submitButton.disabled = true;
-
-        // Collect the form data
-        var formData = new FormData(this);
-        var keyValuePairs = [];
-        for (var pair of formData.entries()) {
-            keyValuePairs.push(pair[0] + "=" + encodeURIComponent(pair[1]));
-        }
-
-        var formDataString = keyValuePairs.join("&");
-
-        // Send a POST request to your Google Apps Script
-        fetch(
-            "https://script.google.com/macros/s/AKfycbxjTcOFOUmX4_OljYRoVc7OONGvPdEx3mWXsa0_1JWGnEEj51WXZ32XTpSWHRly5oFc/exec",
-            {
-                redirect: "follow",
-                method: "POST",
-                body: formDataString,
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-                },
-            }
-        )
-        .then(function (response) {
-            // Check if the request was successful
-            if (response.ok) {
-                return response.json(); // Assuming your script returns JSON response
-            } else {
-                throw new Error("Failed to submit the form.");
-            }
-        })
-        .then(function (data) {
-            // Display a success message
-            messageElement.textContent = "Data submitted successfully!";
-            messageElement.style.display = "block";
-            messageElement.style.backgroundColor = "green";
-            messageElement.style.color = "beige";
-            submitButton.disabled = false;
-            form.reset();
-
-            setTimeout(function () {
-                messageElement.textContent = "";
-                messageElement.style.display = "none";
-            }, 2600);
-        })
-        .catch(function (error) {
-            // Handle errors, display an error message
-            console.error(error);
-            messageElement.textContent = "An error occurred while submitting the form.";
-            messageElement.style.display = "block";
-            messageElement.style.backgroundColor = "red";
-            messageElement.style.color = "white";
-            submitButton.disabled = false;
-        });
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxjTcOFOUmX4_OljYRoVc7OONGvPdEx3mWXsa0_1JWGnEEj51WXZ32XTpSWHRly5oFc/exec';
+  const form = document.getElementById("form")
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(scriptURL, {
+        method: "POST",
+	mode: "no-cors",
+        body: new FormData(form) 
+    })
+    .then(response => {
+        alert("Thank you! Submitted successfully!");
+        window.location.reload(); 
+    })
+    .catch(error => console.error("Error:", error.message));
     });
-</script>
-
+     </script>
    
 </body>
 </html>
