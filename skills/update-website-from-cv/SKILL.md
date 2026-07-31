@@ -1,6 +1,6 @@
 ---
 name: update-website-from-cv
-description: Update Da Gong's academic website from a supplied LaTeX or PDF CV while preserving the website's established layouts and formatting. Use for CV synchronization, adding or reclassifying research, updating talks and conferences, teaching, advising, grants, service, biography, contact details, or rebuilding the local preview after CV-driven edits.
+description: Update Da Gong's academic website from a supplied LaTeX or PDF CV while preserving the website's established layouts and formatting. Use for CV synchronization, adding or reclassifying research, updating talks and conferences, teaching, advising, grants, service, biography, contact details, rebuilding the local preview, or committing and pushing validated website updates to GitHub.
 ---
 
 # Update Website from CV
@@ -69,3 +69,18 @@ Treat the supplied CV as the content source of truth and the existing website as
 - Confirm generated navigation links resolve to localhost, not the published GitHub Pages URL.
 - Never claim the user is viewing updated pages until Research, Experience, and Teaching have each been checked in the generated `_site` output.
 - Publishing or pushing is separate and requires an explicit user request.
+
+## GitHub push requirements
+
+1. Push only when the user explicitly requests it.
+2. Before committing:
+   - confirm the remote is exactly `https://github.com/dadasmash/dagong.github.io.git`;
+   - confirm the publishing branch is `master`;
+   - fetch `origin` and incorporate remote changes without overwriting local work;
+   - stop and ask the user if a conflict or uncertain remote change affects a locally edited file.
+3. Rebuild and verify the website, run `git diff --check`, and inspect the staged diff before pushing.
+4. Stage only explicitly intended source files. Never use broad staging such as `git add .`.
+5. Never commit local or generated artifacts such as `.runtime/`, `.sass-cache/`, `_site/`, temporary build folders, credentials, or tokens.
+6. Check the staged files for secrets and unintended large files.
+7. Commit with a descriptive message, push to `origin master`, and confirm the remote branch SHA matches the local `HEAD`.
+8. If authentication fails, ask the user to sign in with Git Credential Manager. Never ask the user to paste a token into chat or embed a token in the remote URL.
