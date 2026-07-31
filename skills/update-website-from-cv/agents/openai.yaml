@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update Website from CV"
+  short_description: "Preserve layouts while syncing CV content"
+  default_prompt: "Use $update-website-from-cv to sync my latest academic CV into this website without changing its established page layouts."
