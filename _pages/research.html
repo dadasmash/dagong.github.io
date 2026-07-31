@@ -293,11 +293,20 @@ img {vertical-align: middle;}
 	</div>
 
 	<div class="column right">
+	  <h3 class="featurette-heading ">In this paper, we examine how three generative AI models represent U.S. politicians when demographic and political information is withheld.
+		Using a masked-prompt experiment with 88,155 AI-generated portraits of 509 members of Congress, we compare the models’ inferred age, gender, and race signals with legislators’ verified characteristics.</h3>
+
 	  <h3>
 		<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6611178" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
 		  <b>[Manuscript]</b>
 		</a>
 	  </h3>
+
+	  <details>
+		<summary>Abstract</summary>
+		<br>
+		How do generative AI models imagine political elites when key information is missing? We answer this question with a large scale evaluation of AI generated portraits of the U.S. Congress. We generate 88,155 headshots of 509 legislators from DALL•E 3, Stable Diffusion, and Adobe Firefly using prompts that systematically mask age, gender, race, ideology, or legislative experience, and we compare the demographic signals in these portraits to each legislator's verified characteristics using a common computer vision pipeline. Under the full information prompt, AI portraits already diverge sharply from reality: on average, generated politicians appear 26.3 years younger than the legislators they represent, shift 0.172 points toward male on a binary gender measure, and shift 0.156 points toward nonwhite on a binary race measure. These distortions are not randomly distributed. Party heterogeneity is strongest for age in absolute comparisons, with Republicans rendered older than Democrats, while the clearest gender distortion is a disproportionate masculinization of women under masked prompts. Ideology heterogeneity is most consistent for gender and, to a lesser extent, race, but largely disappears for age in within politician comparisons. Tenure matters primarily for age, and in the opposite direction from our initial expectation: longer serving politicians are rendered younger, not older, when information is withheld. Across platforms, more safety curated systems often produce larger incremental distortions than Stable Diffusion, especially for true women on gender and true white politicians on race. To summarize, the findings show that generative AI does not merely reproduce political faces. It consistently reconstructs them in ways that carry implications for representation, campaign imagery, platform governance, and democratic accountability.
+	  </details>
 	</div>
 </div>
 
